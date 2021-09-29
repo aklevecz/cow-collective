@@ -1,0 +1,14 @@
+.layout__container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 1rem;
+}
+
+.layout__header {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}

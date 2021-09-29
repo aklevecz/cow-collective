@@ -1,0 +1,34 @@
+.shop__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.shop__item {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  flex: 0 0 100%;
+  max-width: 300px;
+  min-height: 200px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .shop__item {
+    flex: 0 0 20%;
+  }
+}
+
+.shop__item__name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shop__item__description {
+}
+
+.shop__item__price {
+}
